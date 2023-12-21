@@ -23,13 +23,13 @@ Before running the application, make sure you have the following installed on yo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/url-shortener.git
+   git clone https://github.com/125Akash/URL_SHORTNER.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd url-shortener
+   cd URL_SHORTNER
    ```
 
 3. Install dependencies:
