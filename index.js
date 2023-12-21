@@ -12,7 +12,7 @@ mongoose.connect( process.env.MONGO_URL ).then(() => {
 
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));
-app.use(session({ secret: process.env.SECERT || akashsabe , resave: true, saveUninitialized: true }));
+app.use(session({ secret: process.env.SECERT || 'akashsabe' , resave: true, saveUninitialized: true }));
 
 // Set Cache-Control header to prevent browser caching
 app.use((req, res, next) => {
