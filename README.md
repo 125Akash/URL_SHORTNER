@@ -1,5 +1,7 @@
 # URL Shortener Application
 
+# Live Link - https://url-short-eosh.onrender.com
+
 ## Overview
 
 This URL Shortener Application is a web-based service built using Node.js, Express, and MongoDB. It provides users with the ability to shorten long URLs into more manageable and shareable links. The application includes user authentication with login and signup functionality using EJS as the templating engine.
